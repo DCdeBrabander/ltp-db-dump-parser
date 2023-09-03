@@ -14,8 +14,6 @@
         "symfony/runtime": "6.3.*",
         "symfony/yaml": "6.3.*"
     },
-    "require-dev": {
-    },
     "config": {
         "allow-plugins": {
             "php-http/discovery": true,

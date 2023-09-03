@@ -67,7 +67,7 @@ class Parser
      * Nothing much special here..
      * Relatively standard code for looping through csv file.
      */
-    public function read()
+    public function read(): self
     {
         $handle = fopen($this->pathToFile, "r");
 
